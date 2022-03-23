@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Allusers from './Components/Allusers/Allusers';
+import 'boxicons';
 
 function App() {
   return (

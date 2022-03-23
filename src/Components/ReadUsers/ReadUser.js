@@ -1,5 +1,7 @@
 import React from 'react';
 import '../Allusers/Allusers.css';
+import 'boxicons';
+
 
 const ReadUser = (props) => {
   const allInfo = props.userInfo;
@@ -9,7 +11,9 @@ const ReadUser = (props) => {
           <h4>Name : {allInfo.name.title + allInfo.name.first}</h4>
           <p>Email : {allInfo.email}</p>
           <p>City : {allInfo.location.city}</p>
-          <button className='callBtn'>Contact : {allInfo.cell}</button>
+          <button className='callBtn'>
+          <box-icon type='solid' name='phone-call'></box-icon> {allInfo.cell}
+          </button>
         </div>
     )
 };

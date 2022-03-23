@@ -61,7 +61,7 @@
   }
   
   .callBtn{
-    padding: 10px 14px;
+    padding: 13px 14px;
     margin-top: 20px;
     background-color: #282C34;
     border: none;
@@ -69,4 +69,12 @@
     font-family: poppins;
     cursor: pointer;
     border-radius: 3px;
+  }
+
+  .callBtn box-icon{
+    color: white;
+    fill: white;
+    margin: -4px 0px -4px 0px;
+    vertical-align: text-top;
+    line-height: 0px;
   }
