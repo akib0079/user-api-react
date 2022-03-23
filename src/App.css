@@ -1,38 +1,75 @@
-.App {
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: #282C34;
+
+}
+
+.App{
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.ImgUsers{
+  border-radius: 50%;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+
+.HeaderInfo{
+  padding: 40px 0px;
+  font-family: poppins;
+  width: 1000px;
+  margin: 0 auto;
+}
+.HeaderInfo h1{
   text-align: center;
+  font-family: poppins;
+  font-weight: 500;
+  color: #61DAFB;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logo{
+  width: 200px !important;
+  text-align: center;
+  margin: 0 auto !important;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+
+.HeaderInfo p{
+  text-align: center;
+  font-family: poppins;
+  font-weight: 400;
+  color: rgb(245, 245, 245);
+}
+.AllUsers{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+}
+
+.item{
+  background-color: #F7F7F7;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+  font-family: poppins;
+}
+
+.ImgUsers{
+  width: 100px;
+  border: 2px solid #282C34;
+}
+
+.callBtn{
+  padding: 10px 14px;
+  margin-top: 20px;
+  background-color: #282C34;
+  border: none;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-family: poppins;
+  cursor: pointer;
+  border-radius: 3px;
 }
