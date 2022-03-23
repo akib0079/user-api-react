@@ -1,0 +1,61 @@
+.ImgUsers{
+    border-radius: 50%;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+  }
+  
+  .HeaderInfo{
+    padding: 40px 0px;
+    font-family: poppins;
+    width: 1000px;
+    margin: 0 auto;
+  }
+  .HeaderInfo h1{
+    text-align: center;
+    font-family: poppins;
+    font-weight: 500;
+    color: #61DAFB;
+  }
+  
+  .logo{
+    width: 200px !important;
+    text-align: center;
+    margin: 0 auto !important;
+    display: flex;
+  }
+  
+  
+  .HeaderInfo p{
+    text-align: center;
+    font-family: poppins;
+    font-weight: 400;
+    color: rgb(245, 245, 245);
+  }
+  .AllUsers{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+  }
+  
+  .item{
+    background-color: #F7F7F7;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+    font-family: poppins;
+  }
+  
+  .ImgUsers{
+    width: 100px;
+    border: 2px solid #282C34;
+  }
+  
+  .callBtn{
+    padding: 10px 14px;
+    margin-top: 20px;
+    background-color: #282C34;
+    border: none;
+    color: white;
+    font-family: poppins;
+    cursor: pointer;
+    border-radius: 3px;
+  }
