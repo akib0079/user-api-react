@@ -7,12 +7,16 @@ const ReadUser = (props) => {
   const allInfo = props.userInfo;
     return(
         <div className="item">
-          <img className='ImgUsers' src={allInfo.picture.medium} alt="" />
-          <h4>Name : {allInfo.name.title + allInfo.name.first}</h4>
-          <p>Email : {allInfo.email}</p>
-          <p>City : {allInfo.location.city}</p>
+          <div className="itemInfo">
+            <img className='ImgUsers' src={allInfo.picture.medium} alt="" />
+            <div className="allInfos">
+            <h4>Name : {allInfo.name.title + allInfo.name.first}</h4>
+            <p>Email : {allInfo.email}</p>
+            <p>City : {allInfo.location.city}</p>
+            </div>
+          </div>
           <button className='callBtn'>
-          <box-icon type='solid' name='phone-call'></box-icon> {allInfo.cell}
+          <box-icon type='solid' name='phone-call'></box-icon> Call: {allInfo.cell}
           </button>
         </div>
     )
